@@ -1,0 +1,370 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family:"Microsoft YaHei UI";
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #07cbc9;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.logo{
+	margin-top: 14px;
+	margin-left: 100px;
+	float: left;
+}
+
+.nav ul{
+	float: right;
+	margin-right: 80px;
+}
+
+.nav ul li{
+    float: left;
+    width: 80px;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav ul li:hover{
+	background-color: gray;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.banner{
+	padding-top: 80px;
+	width: 100%;
+	height: 600px;
+}
+
+.banner img{
+	width: 100%;
+	height: 600px;
+
+}
+
+.bannerLayer{
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	height: 600px;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 
+}
+
+.bannerLayer-top{
+	width: 506px;
+	height: 450px; 
+	position: absolute;
+	top: 190px;
+	left: 50%;
+	margin-left: -253px;
+
+}
+
+.name,.phone,.email{
+	width: 500px;
+	height: 40px;
+	border: 3px solid gray;
+	margin-bottom: 20px;
+	background: transparent;
+}
+
+.comment{
+	width: 500px;
+	height: 140px;
+	border: 3px solid gray;
+	margin-bottom: 20px;
+	background: transparent;
+	font-size:16px; 
+	color: gray;
+	text-indent: 10px; 
+	font-family:"Microsoft YaHei UI";/*为何此处一定要补充设置字体才能与上面的表单项字体一致？*/
+}
+
+.name:hover{
+	border-color: #07cbc9;
+}
+
+.phone:hover{
+	border-color: #07cbc9;
+}
+
+.email:hover{
+	border-color: #07cbc9;
+}
+.comment:hover{
+	border-color: #07cbc9;
+}
+
+.submit:hover{
+	background: #07cbc9;
+	border: none;
+}
+
+.submit{
+	width: 150px;
+	height: 50px;
+	border: 3px solid gray;
+	margin-bottom: 20px;
+	margin-left: 178px;
+	color: gray;
+	font-weight: bold;
+	background: transparent;
+}
+
+input::placeholder{
+			font-size:16px; 
+			color: gray;
+			text-indent: 10px;
+		}
+
+.about .top,.gallery .top{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+
+.about .top .line,.gallery .top .line{
+	width: 50px;
+	height: 20px;
+	border: 2px solid #07cbc9;
+	margin-top: 22px;
+	margin-left: 273px;
+	border-color: #07cbc9 transparent transparent transparent;
+
+}
+
+.about .top p,.gallery .top p{
+	font-size: 16px;
+	color: gray;
+}
+
+.about .middle{
+	width: 70%;
+	height: 435px;
+	margin: 0 auto;
+	margin-top: 35px;
+	
+}
+
+.about .middle .left{
+	float: left;
+	z-index: 222;
+	margin-left: 20px;
+
+}
+
+.about .middle .left h1{
+	width: 200px;
+	margin-left: 10px;
+	font-weight: normal;
+}
+
+.about .middle .left p{
+	border: 1px solid white;
+	padding: 20px;
+	background-color: rgba(225,225,225,0.3);
+	margin-top: 10px;
+	position: absolute;
+	z-index: 222;
+}
+
+.about .middle .left input{
+	width: 100px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border: none;
+	margin-top: 20px;
+}
+
+.about .middle .middle-middle{
+	float: left;
+	position:absolute;
+	left: 420px;
+}
+
+.about .middle .middle-middle img{
+	height: 350px;
+}
+
+.about .middle .right{
+	float: right;
+}
+
+.students,.faculty{
+	width: 180px;
+	height: 120px;
+	border: 1px solid #07cbc9;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.right .line{
+	width: 50px;
+	height: 15px;
+	border: 2px solid #07cbc9;
+	margin-top: 22px;
+	margin-left: 64px;
+	border-color: #07cbc9 transparent transparent transparent;
+}
+
+.num{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.about .bottom{
+	width: 100%;
+	height: 600px;
+}
+
+.pic1,.word1,.pic2,.word2{
+	width: 25%;
+	height: 300px;
+	float: left;
+}
+
+.pic1 img,.pic2 img{
+	width: 100%;
+	height: 300px;
+}
+
+.word1,.word2{
+	font-size: 12px;
+	padding: 30px;
+	background-color: #07cbc9; 
+	box-sizing: border-box;
+	
+}
+
+.word1 .para1,.word1 .para2,.word2 .para1,.word2 .para2{
+	margin-top: 20px;
+}
+
+.word1 h2,.word2 h2{
+	color: white;
+}
+
+.word1 .para1,.word2 .para1{
+	color: white
+}
+
+.word1 .para2,.word2 .para2{
+	color: gray;
+}
+
+.word1 input,.word2 input{
+	width: 80px;
+	height: 40px;
+	background-color: black;
+	border: none;
+	color: white;
+	margin-left: 88px;
+	margin-top: 20px;
+}
+
+.about .middle .left .explore:hover{
+	color: black;
+	background-color: transparent;
+	border:1px solid black;  
+}
+
+.about .bottom .explore:hover{
+	color: black;
+	background-color: transparent;
+	border:1px solid black;  
+}
+
+.tri1{
+	width: 0;
+	height: 0;
+	border-top:15px solid transparent;
+	border-left:15px solid transparent;
+	border-bottom:15px solid transparent;
+	border-right:15px solid #07cbc9;  
+	
+	margin-left: -60px;
+	margin-top: -130px;
+}
+
+.tri2{
+	width: 0;
+	height: 0;
+	border-top:15px solid transparent;
+	border-right:15px solid transparent;
+	border-bottom:15px solid transparent;
+	border-left:15px solid #07cbc9;  
+	margin-left: 307px;
+	margin-top: -130px;
+	z-index: 2222;
+	position: absolute;/*这里单独设置绝对定位就可以实现三角形层级在上面了。。为何？relative不用设置吗？*/
+	
+}
+
+.gallery .bottom{
+	width: 60%;
+	height: 480px;
+	margin: 20px auto;
+}
+
+.bottom .s{
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.bottom .s img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.descri{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: black;
+	color: gray;
+	font-size: 12px;
+	text-indent: 10px;
+}
+
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: #07cbc9;
+	color: white;
+}
+
+.footer p{
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
